@@ -10,6 +10,3 @@ function cat(name){
 cat.prototype.eat = function(mouse) {
 	this.stomach.push(mouse);
 }
-
-module.exports = Cat;
-// var array = [1, 2, 3];
